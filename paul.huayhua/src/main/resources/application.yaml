@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: spring-webflux-postgres
+
+  r2dbc:
+    url: r2dbc:postgresql://ep-delicate-leaf-am6tpmj6-pooler.c-5.us-east-1.aws.neon.tech/paul_huayhua_19
+    username: neondb_owner
+    password: npg_Ki4vXFVd1JmS
+    properties:
+      sslMode: REQUIRE
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
